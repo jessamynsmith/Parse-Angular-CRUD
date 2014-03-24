@@ -18,7 +18,7 @@ config(['$routeProvider', function($routeProvider) {
   									  controller: 'wp-themesCtrl'});
 
   $routeProvider.when('/wp-plugins', 	{templateUrl: 'views/wp-plugins.html', 
-  									  controller: 'allCtrl'});
+  									  controller: ''});
 
   $routeProvider.when('/tutorials',  {templateUrl: 'views/tutorials.html', 
                       controller: 'tutorialsCtrl'});
