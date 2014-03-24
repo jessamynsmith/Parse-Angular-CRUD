@@ -8,7 +8,7 @@ angular.module('assets', [
   'assets.services',
   'assets.directives',
   'assets.controllers',
-  'assets.parse-angular',
+  'parse-angular',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home',     {templateUrl: 'views/home.html', 
