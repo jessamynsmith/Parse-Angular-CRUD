@@ -1,0 +1,18 @@
+<table class="holder">
+  <thead>
+    <tr>
+      <th class="hide-for-small-only">Date Added</th>
+      <th>Plugin</th>
+      <th class="hide-for-small-only">Type</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="Asset in allAssets">
+      <td class="hide-for-small-only">{{Asset.createdAt | date:'medium'}}</td>
+      <td>{{Asset.name}}</td>
+      <td class="hide-for-small-only">{{Asset.tags}}</td>
+      <td><a href="{{Asset.link}}" class="button">{{Asset.click}}</a></td>
+    </tr>
+  </tbody>
+</table>
